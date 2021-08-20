@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "MSIMSDK-DE4"
-  spec.version      = "1.0.2"
+  spec.name         = "MSIMSDK_DE4"
+  spec.version      = "1.0.3"
   spec.summary      = "MSIM for de4......................................"
 
   spec.homepage     = "https://github.com/wffkan/MSIM-DE4"
