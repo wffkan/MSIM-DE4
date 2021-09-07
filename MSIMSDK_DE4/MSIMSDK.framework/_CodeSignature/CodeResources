@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/MSDBFileRecordStore.h</key>
 		<data>
-		HDH+MYbYl9VE3MEZBBWL1Xqv4m8=
+		ANc8Y/uJyACM7dUShy0S0NyKTO4=
 		</data>
 		<key>Headers/MSDBManager.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/MSIMConst.h</key>
 		<data>
-		M6wEZ+KZQuFsOFhsicrVvQ0zKUI=
+		PA9xsPQadaFmdX57YGKwyxZ1ixU=
 		</data>
 		<key>Headers/MSIMConversation.h</key>
 		<data>
@@ -187,11 +187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HDH+MYbYl9VE3MEZBBWL1Xqv4m8=
+			ANc8Y/uJyACM7dUShy0S0NyKTO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			h8KrabsJIJN2iAN8zhya18y6BffG/7DDpkThmWYx9Oc=
+			aEmNQI5xKQKdWRPr875/HjLKh24Frx1qK0BlCrGZUjo=
 			</data>
 		</dict>
 		<key>Headers/MSDBManager.h</key>
@@ -231,11 +231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M6wEZ+KZQuFsOFhsicrVvQ0zKUI=
+			PA9xsPQadaFmdX57YGKwyxZ1ixU=
 			</data>
 			<key>hash2</key>
 			<data>
-			AZ0qiwWBQbj8UTPtp47ELCa9SWQOo6ee2vijXzsOXzc=
+			td9mQaE6tcwvPFCATH4vmT9H8JYbuVgmbKENBPAPXDI=
 			</data>
 		</dict>
 		<key>Headers/MSIMConversation.h</key>
