@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///根据msg_id查询消息
 - (MSIMElem *)searchMessage:(NSString *)partner_id msg_id:(NSInteger)msg_id;
 
-///根据msg_sign查询消息
+
 - (MSIMElem *)searchMessage:(NSString *)partner_id msg_sign:(NSInteger)msg_sign;
 
 ///取出小于或等于msg_id的对方发出的消息的msg_id

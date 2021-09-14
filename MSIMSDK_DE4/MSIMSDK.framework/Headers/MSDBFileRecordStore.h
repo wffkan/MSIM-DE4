@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy) NSString *coverUrl;
 
 @property(nonatomic,assign) NSInteger modTime;
+
 @end
 
 NS_ASSUME_NONNULL_END
