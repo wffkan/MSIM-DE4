@@ -14,8 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 ///聊天数据库
 + (NSString *)pathDBMessage;
 
-///能用数据库
+///通用数据库
 + (NSString *)pathDBCommon;
+
+///自定义数据库
++ (NSString *)pathDBCustom;
 
 ///聊天图片保存地址
 + (NSString *)pathForIMImage;

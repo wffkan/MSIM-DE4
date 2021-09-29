@@ -52,6 +52,7 @@ typedef NS_ENUM(NSInteger, XMChatProtoType) {
     
     XMChatProtoTypeGetCosToken = 21,//请求cos的临时证书
     XMChatProtoTypeCosTokenResponse = 22,//cos的临时证书结果
+    XMChatProtoTypeRefreshPushToken = 23,//客户端更新push token
     
     XMChatProtoTypeProfileOnline = 50,//通知客户端用户上线事件
     XMChatProtoTypeProfileOffline = 52,//通知客户端用户下线事件
@@ -104,7 +105,7 @@ typedef NS_ENUM(NSInteger ,MSIMMessageType){
     
     MSIM_MSG_TYPE_LOCATION = 4,//位置消息
     
-    MSIM_MSG_TYPE_USER_CARD = 6,//用户名片消息
+    MSIM_MSG_TYPE_USER_CARD = 5,//用户名片消息
     
     MSIM_MSG_TYPE_REVOKE = 31,//撤回消息
     

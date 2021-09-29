@@ -67,25 +67,31 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MSCustomExt: NSObject
 
 ///是否是matched
-@property(nonatomic,assign) NSInteger matched;
+@property(nonatomic,assign) BOOL matched;
 
 ///是否以newmessage显示
-@property(nonatomic,assign) NSInteger new_msg;
+@property(nonatomic,assign) BOOL new_msg;
 
 ///是否显示my move
-@property(nonatomic,assign) NSInteger my_move;
+@property(nonatomic,assign) BOOL my_move;
 
 ///是否要显示破冰文案
-@property(nonatomic,assign) NSInteger ice_break;
+@property(nonatomic,assign) BOOL ice_break;
 
 ///是否要显示 xx can reply you for free/ you can reply xx for free
-@property(nonatomic,assign) NSInteger tip_free;
+@property(nonatomic,assign) BOOL tip_free;
 
 ///是否要显示顶部tool bar 相册
-@property(nonatomic,assign) NSInteger top_album;
+@property(nonatomic,assign) BOOL top_album;
+
+///我给你发过消息了
+@property(nonatomic,assign) BOOL i_chat_u;
+
+///你给我发过消息了
+@property(nonatomic,assign) BOOL u_chat_i;
 
 ///我是否把你block了。
-@property(nonatomic,assign) NSInteger i_block_u;
+@property(nonatomic,assign) BOOL i_block_u;
 
 - (MSCustomExt *_Nullable)initWithDictionary:(NSDictionary *_Nullable)dic;
 
