@@ -14,18 +14,20 @@ NS_ASSUME_NONNULL_BEGIN
 ///单例
 + (instancetype)provider NS_SWIFT_NAME(shared());
 
-/// 向某张表中缓存一条数据
-- (BOOL)cacheValue:(NSString *)value forKey:(NSString *)key inTable:(NSString *)tableName;
+/// 向某张表中批量缓存数据
+- (BOOL)updateCaches:(NSArray<NSString *> *)keys values:(NSArray<NSString *> *)values inTable:(NSString *)tableName;
 
-/// 从某一张表中取出一条数据
-- (NSString *)valueForKey:(NSString *)key fromTable:(NSString *)tableName;
+/// 批量读取数据
+- (nullable NSArray<NSString *> *)valuesForKeys:(NSArray<NSString *> *)keys inTable:(NSString *)tableName;
 
-/// 从某一张表中删除一条数据
-- (BOOL)deleteRowForKey:(NSString *)key fromTable:(NSString *)tableName;
+/// 取出某张表中对应key的value
+- (nullable NSString *)valueForKey:(NSString *)key inTable:(NSString *)tableName;
+
+/// 从某一张表中删除批量数据
+- (void)deleteRowForKeys:(NSArray<NSString *> *)keys fromTable:(NSString *)tableName;
 
 /// 删除一张表
 - (BOOL)deleteTable:(NSString *)tableName;
-
 
 @end
 
