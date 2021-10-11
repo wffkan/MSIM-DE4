@@ -9,12 +9,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSInteger ,MSIMServerType){
-    
-    MSIMServerTypeTest = 0, //测试环境
-    
-    MSIMServerTypeProduct = 1,//正式环境
-};
 
 @interface MSIMTools : NSObject
 
@@ -23,6 +17,8 @@ typedef NS_ENUM(NSInteger ,MSIMServerType){
 @property(nonatomic,copy) NSString * _Nullable user_id;
 
 @property(nonatomic,copy) NSString * _Nullable user_sign;
+
+@property(nonatomic,assign) NSInteger sub_app_id;
 
 @property(nonatomic,assign,readonly) NSInteger currentLocalTimeInterval;
 

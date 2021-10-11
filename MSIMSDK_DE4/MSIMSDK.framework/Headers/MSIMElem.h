@@ -72,6 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMImageElem : MSIMElem
 
+/** 附件 id*/
+@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 图片 ID，内部标识，可用于外部缓存key*/
 @property(nonatomic,copy,nullable) NSString *uuid;
 /** 图片大小*/
@@ -98,6 +100,8 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMVoiceElem : MSIMElem
 
+/** 附件 id*/
+@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 语音本地地址*/
 @property(nonatomic,copy,nullable) NSString * path;
 /** 语音远程地址*/
@@ -118,6 +122,8 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMVideoElem : MSIMElem
 
+/** 附件 id*/
+@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 视频 ID，内部标识，可用于外部缓存key*/
 @property(nonatomic,copy,nullable) NSString *uuid;
 /** 视频本地地址*/
@@ -141,6 +147,26 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+/////////////////////////////////////////////////////////////////////////////////
+//
+//                      业务消息 Elem 服务端下发的消息，客户端只负责接收
+//  对应的消息type 32 ~ 63
+/////////////////////////////////////////////////////////////////////////////////
+@interface MSBusinessElem : MSIMElem
+
+@property(nonatomic,copy,nullable) NSString *body;
+
+@property(nonatomic,copy,nullable) NSString *title;
+
+@property(nonatomic,copy,nullable) NSString *thumb;
+
+@property(nonatomic,assign) NSInteger width;
+
+@property(nonatomic,assign) NSInteger height;
+
+@property(nonatomic,assign) NSInteger duration;
+
+@end
 
 /////////////////////////////////////////////////////////////////////////////////
 //

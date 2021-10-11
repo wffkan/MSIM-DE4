@@ -23,7 +23,7 @@ typedef NS_ENUM(NSInteger ,MSUploadFileType){
     MSUploadFileTypeAvatar = 3,//头像
 };
 
-typedef void(^normalSucc)(NSString *url);
+typedef void(^normalSucc)(NSString *url,NSString *acc_id);
 typedef void(^normalProgress)(CGFloat progress);
 typedef void(^normalFail)(NSInteger code, NSString *desc);
 
