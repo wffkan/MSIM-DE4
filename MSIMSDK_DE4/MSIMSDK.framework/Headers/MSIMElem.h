@@ -72,8 +72,6 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMImageElem : MSIMElem
 
-/** 附件 id*/
-@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 图片 ID，内部标识，可用于外部缓存key*/
 @property(nonatomic,copy,nullable) NSString *uuid;
 /** 图片大小*/
@@ -100,8 +98,6 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMVoiceElem : MSIMElem
 
-/** 附件 id*/
-@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 语音本地地址*/
 @property(nonatomic,copy,nullable) NSString * path;
 /** 语音远程地址*/
@@ -122,8 +118,6 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSIMVideoElem : MSIMElem
 
-/** 附件 id*/
-@property(nonatomic,copy,nullable) NSString *acc_id;
 /** 视频 ID，内部标识，可用于外部缓存key*/
 @property(nonatomic,copy,nullable) NSString *uuid;
 /** 视频本地地址*/
