@@ -143,8 +143,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /////////////////////////////////////////////////////////////////////////////////
 //
-//                      业务消息 Elem 服务端下发的消息，客户端只负责接收
-//  对应的消息type 32 ~ 63
+//      业务消息 Elem
+// 11 ~ 30 预留给用户可以发送的消息类型
+// 32 ~ 63 预留给用户只能接收的消息类型
+//  对应的消息type 11 ~ 30 and 32 ~ 63
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSBusinessElem : MSIMElem
 
@@ -159,6 +161,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) NSInteger height;
 
 @property(nonatomic,assign) NSInteger duration;
+
+@property(nonatomic,assign) double lat;
+
+@property(nonatomic,assign) double lng;
+
+@property(nonatomic,assign) NSInteger zoom;
 
 @end
 
