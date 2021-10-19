@@ -25,7 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,assign) BOOL verified;
 
-@property(nonatomic,assign) NSInteger gold_exp;
+/** 是否通过审核*/
+@property(nonatomic,assign) BOOL approved;
+
+/** 是否被后台标记为删除*/
+@property(nonatomic,assign) BOOL deleted;
 
 @property(nonatomic,assign) NSInteger gender;
 
