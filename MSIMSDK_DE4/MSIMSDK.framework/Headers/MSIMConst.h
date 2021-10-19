@@ -107,24 +107,7 @@ typedef NS_ENUM(NSInteger ,MSIMMessageType){
     
     MSIM_MSG_TYPE_USER_CARD = 5,//用户名片消息
     
-    
-    
-    
     MSIM_MSG_TYPE_REVOKE = 31,//撤回消息
-    
-    MSIM_MSG_TYPE_WINK = 32,//媚眼
-    
-    MSIM_MSG_TYPE_MATCH = 33,//匹配
-    
-    MSIM_MSG_TYPE_MATCH_CANCEL = 34,//取消匹配
-    
-    MSIM_MSG_TYPE_UPLOAD_ABLUM_REQUEST = 35,//private album request
-    
-    MSIM_MSG_TYPE_UPLOAD_ABLUM_RESPONSE = 36,//accept private album request
-    
-    
-    
-    MSIM_MSG_TYPE_RECALL = 64,//消息撤回指令
     
     MSIM_MSG_TYPE_CUSTOM_SIGNAL = 240,//自定义消息（不生成消息，仅作为信号传递）
     
