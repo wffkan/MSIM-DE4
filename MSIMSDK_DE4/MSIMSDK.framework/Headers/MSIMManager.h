@@ -17,7 +17,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 获取历史消息成功回调
-typedef void (^MSIMConversationListSucc)(NSArray<MSIMConversation *> * convs,NSInteger nexSeq,BOOL isFinished);
+typedef void (^MSIMConversationListSucc)(NSArray<MSIMConversation *> * convs,BOOL isFinished);
 
 @interface MSIMManager : NSObject
 

@@ -64,6 +64,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///新增会话或会话发生变化
 - (void)onUpdateConversations:(NSArray<MSIMConversation*> *) conversationList;
 
+/// 会话总的未读数变化的通知
+- (void)onUnreadCountDidChanged;
+
 ///收到会话被删除时通知
 - (void)conversationDidDelete:(NSString *)partner_id;
 
@@ -75,6 +78,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 收到新消息（除了信令消息）
 - (void)onNewMessages:(NSArray<MSIMElem *> *)msgs;
+
+/// 收到删除的消息
+- (void)onDeleteMessages:(NSArray<NSNumber *> *)msg_ids;
 
 /// 收到信令消息
 - (void)onRecieveSignalMessages:(NSArray<MSIMElem *> *)msgs;

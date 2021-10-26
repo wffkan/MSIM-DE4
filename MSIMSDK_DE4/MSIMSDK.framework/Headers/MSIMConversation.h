@@ -50,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///会话已删除
 @property(nonatomic,assign) NSInteger deleted;
 
+/// 决定会话是否显示
+@property(nonatomic,assign,readonly) BOOL isHidden;
+
 ///用户信息
 @property(nonatomic,strong,readonly) MSProfileInfo *userInfo;
 

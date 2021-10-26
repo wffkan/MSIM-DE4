@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)deleteConversation:(NSString *)partner_id;
 
+- (nullable NSArray<MSIMConversation *> *)allConversations;
+
 - (NSInteger)allUnreadCount;
 
 - (void)clean;

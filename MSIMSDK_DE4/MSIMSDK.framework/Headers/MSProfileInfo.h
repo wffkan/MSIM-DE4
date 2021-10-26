@@ -21,17 +21,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy) NSString *avatar;
 
+@property(nonatomic,assign) NSInteger gender;
+
 @property(nonatomic,assign) BOOL gold;
 
 @property(nonatomic,assign) BOOL verified;
 
-/** 是否通过审核*/
-@property(nonatomic,assign) BOOL approved;
-
-/** 是否被后台标记为删除*/
-@property(nonatomic,assign) BOOL deleted;
-
-@property(nonatomic,assign) NSInteger gender;
+/** 决定与他产生的会话是否需要隐藏*/
+@property(nonatomic,assign) BOOL hidden;
 
 @property(nonatomic,copy) NSString *pic;
 

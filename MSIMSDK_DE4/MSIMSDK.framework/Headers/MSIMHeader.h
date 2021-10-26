@@ -24,6 +24,9 @@
 //会话被删除时的通知
 #define MSUIKitNotification_ConversationDelete @"MSUIKitNotification_ConversationDelete"
 
+//会话总未读数变化时的通知
+#define MSUIKitNotification_ConversationUnreadCountChange @"MSUIKitNotification_ConversationUnreadCountChange"
+
 //有新消息通知
 #define MSUIKitNotification_MessageListener @"MSUIKitNotification_MessageListener"
 
@@ -34,6 +37,8 @@
 #define MSUIKitNotification_MessageSendStatusUpdate @"MSUIKitNotification_MessageSendStatusUpdate"
 //收到对方撤回消息的通知
 #define MSUIKitNotification_MessageRecieveRevoke @"MSUIKitNotification_MessageRecieveRevoke"
+//收到一条消息被删除的通知
+#define MSUIKitNotification_MessageRecieveDelete @"MSUIKitNotification_MessageRecieveDelete"
 //收到对方消息已读的通知
 #define MSUIKitNotification_MessageReceipt @"MSUIKitNotification_MessageReceipt"
 

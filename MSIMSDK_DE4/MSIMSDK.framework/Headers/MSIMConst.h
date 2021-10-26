@@ -107,7 +107,9 @@ typedef NS_ENUM(NSInteger ,MSIMMessageType){
     
     MSIM_MSG_TYPE_USER_CARD = 5,//用户名片消息
     
-    MSIM_MSG_TYPE_REVOKE = 31,//撤回消息
+    MSIM_MSG_TYPE_REVOKE = 31,//撤回的消息
+    
+    MSIM_MSG_TYPE_DELETE = 67,//删除的消息
     
     MSIM_MSG_TYPE_CUSTOM_SIGNAL = 240,//自定义消息（不生成消息，仅作为信号传递）
     

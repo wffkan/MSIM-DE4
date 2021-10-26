@@ -23,10 +23,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /// 分页拉取会话列表
-/// @param nextSeq 分页拉取游标，第一次默认取传 0，后续分页拉传上一次分页拉取回调里的 nextSeq
+/// @param nextPage 下拉刷新取首页传NO,取第一页会话，后续分页拉传YES
 /// @param succ 拉取成功
 /// @param fail 拉取失败
-- (void)getConversationList:(NSInteger)nextSeq
+- (void)getConversationList:(BOOL)nextPage
                        succ:(nullable MSIMConversationListSucc)succ
                        fail:(nullable MSIMFail)fail;
 

@@ -37,6 +37,9 @@ typedef void (^profileBlock)(MSProfileInfo * __nullable profile);
 ///比对update_time与服务器同步更新用户信息
 - (void)synchronizeProfiles:(NSMutableArray<MSProfileInfo *> *)profiles;
 
+/// 与服务器同步所有会话的profile信息
+- (void)synchronizeAllProfiles;
+
 ///返回本地数据库中所有的用户信息
 - (NSArray<MSProfileInfo *> *)allProfiles;
 

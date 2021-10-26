@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///查询所有的会话记录
 - (NSArray<MSIMConversation *> *)allConvesations;
 
+///查询所有会话未读数>0的记录
+- (NSArray<MSIMConversation *> *)allUnreadConversations;
+
 ///查询某一条会话
 - (nullable MSIMConversation *)searchConversation:(NSString *)conv_id;
 

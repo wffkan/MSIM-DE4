@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///标记某一条消息为撤回消息
 - (BOOL)updateMessageRevoke:(NSInteger)msg_id partnerID:(NSString *)partnerID;
 
+///标记某一条消息为删除的消息
+- (BOOL)updateMessageDelete:(NSInteger)msg_id partnerID:(NSString *)partnerID;
+
 ///取最后一条msg_id
 - (MSIMElem *)lastMessageID:(NSString *)partner_id;
 
