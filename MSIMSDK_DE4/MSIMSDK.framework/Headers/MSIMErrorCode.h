@@ -22,6 +22,8 @@ enum ERROR_CODE {
     ERR_IM_LOGIN_ALREADY                        = 11,///用户已经登录
     ERR_CHAT_LIST_EMPTY                         = 12,///用户的会话列表为空
     
+    ERR_USER_SIG_LIMIT                          = 1007,///消息发送失败：对方被永久限制
+    
     ERR_LOGIN_KICKED_OFF_BY_OTHER               = 2008,    ///< 其他终端登录同一个帐号，引起已登录的帐号被踢，需重新登录。
     ERR_USER_SIG_EXPIRED                        = 2009,    ///< UserSig 过期，请重新获取有效的 UserSig 后再重新登录。
     
