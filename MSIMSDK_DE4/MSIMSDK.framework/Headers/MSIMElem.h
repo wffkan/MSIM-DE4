@@ -172,6 +172,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 /////////////////////////////////////////////////////////////////////////////////
 //
+// 透传的指令消息 Elem
+// type = 100
+/////////////////////////////////////////////////////////////////////////////////
+@interface MSSignalElem : MSIMElem
+
+@property(nonatomic,copy,nullable) NSString *body;
+
+@property(nonatomic,copy,nullable) NSString *title;
+
+@property(nonatomic,copy,nullable) NSString *thumb;
+
+@property(nonatomic,assign) NSInteger width;
+
+@property(nonatomic,assign) NSInteger height;
+
+@property(nonatomic,assign) NSInteger duration;
+
+@property(nonatomic,assign) double lat;
+
+@property(nonatomic,assign) double lng;
+
+@property(nonatomic,assign) NSInteger zoom;
+
+@end
+
+/////////////////////////////////////////////////////////////////////////////////
+//
 //                      自定义消息 Elem
 //
 /////////////////////////////////////////////////////////////////////////////////

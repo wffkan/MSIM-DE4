@@ -111,12 +111,14 @@ typedef NS_ENUM(NSInteger ,MSIMMessageType){
     
     MSIM_MSG_TYPE_DELETE = 67,//删除的消息
     
+    MSIM_MSG_TYPE_SIGNAL = 100,// 透传的指令消息,不存储
+    
     MSIM_MSG_TYPE_CUSTOM_SIGNAL = 240,//自定义消息（不生成消息，仅作为信号传递）
-    
+
     MSIM_MSG_TYPE_CUSTOM_IGNORE_UNREADCOUNT_RECALL  = 241,//自定义消息（不算计数 不可撤回 （可带push字段））
-    
+
     MSIM_MSG_TYPE_CUSTOM_UNREADCOUNT_NO_RECALL = 243,//自定义消息（算计数 不可撤回 （可带push字段）））
-    
+
     MSIM_MSG_TYPE_CUSTOM_UNREADCOUNT_RECAL = 247,//自定义消息（算计数 可撤回 （可带push字段））
     
     MSIM_MSG_TYPE_NULL = 999,//空消息，用于占位
