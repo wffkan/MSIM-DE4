@@ -94,11 +94,15 @@
 		</data>
 		<key>Headers/MSIMSDK.h</key>
 		<data>
-		4ycY/rsrAkzjkiWRqlnzIX44xLg=
+		CptRY2ul04Xn3iTR4+uY9JD3xPM=
 		</data>
 		<key>Headers/MSIMTools.h</key>
 		<data>
 		lk5pUjWKfkdxf7jGcEKUtT5oPd0=
+		</data>
+		<key>Headers/MSMessageProvider.h</key>
+		<data>
+		Q+pAugXO9M1/ohlzx4qjgHmXhGw=
 		</data>
 		<key>Headers/MSProfileInfo.h</key>
 		<data>
@@ -389,11 +393,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ycY/rsrAkzjkiWRqlnzIX44xLg=
+			CptRY2ul04Xn3iTR4+uY9JD3xPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			iSTkEmt8Q72MMzpUOVGUPnzdTjXPeMSHZVuhmxfHLC4=
+			ZD/sV8Lg8ra6qUZPl8gOryTEe+F57Z4gtZGnow0Da+4=
 			</data>
 		</dict>
 		<key>Headers/MSIMTools.h</key>
@@ -405,6 +409,17 @@
 			<key>hash2</key>
 			<data>
 			5m56GSoCQTW9AW0FwiIxys0fgeXPyHCU6fNZTCJGXLY=
+			</data>
+		</dict>
+		<key>Headers/MSMessageProvider.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q+pAugXO9M1/ohlzx4qjgHmXhGw=
+			</data>
+			<key>hash2</key>
+			<data>
+			42GwsqgyyF4lHQpPafiJleTGCfsN/NsoP5/Q71cnUCo=
 			</data>
 		</dict>
 		<key>Headers/MSProfileInfo.h</key>

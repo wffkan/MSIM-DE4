@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char MSIMSDKVersionString[];
 #import <MSIMSDK/MSProfileProvider.h>
 #import <MSIMSDK/MSConversationProvider.h>
 #import <MSIMSDK/MSCacheProvider.h>
+#import <MSIMSDK/MSMessageProvider.h>
 
 #import <MSIMSDK/NSString+AES.h>
 #import <MSIMSDK/NSString+Ext.h>
