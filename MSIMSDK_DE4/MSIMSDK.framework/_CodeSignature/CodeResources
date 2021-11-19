@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IMSDKConfig.h</key>
 		<data>
-		80zaMbM4/0Pk09eEjQCydh2TMMs=
+		pAYOetvHg3vJQyHdj6Vz/rG0eoU=
 		</data>
 		<key>Headers/MSCacheProvider.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s0wndzm184iBij0UWW5/1V2AdHc=
+		FwxunugfJ/iq4ecRzMBN2Jjzf+o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			80zaMbM4/0Pk09eEjQCydh2TMMs=
+			pAYOetvHg3vJQyHdj6Vz/rG0eoU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1wYzbhI6XQdwW4su445cIbVknrouUJlqfDqzSux9O6A=
+			El+HWZoxn6Wwxy8ot5vf5LNYvkGg40OZihy+1mRUwXg=
 			</data>
 		</dict>
 		<key>Headers/MSCacheProvider.h</key>
