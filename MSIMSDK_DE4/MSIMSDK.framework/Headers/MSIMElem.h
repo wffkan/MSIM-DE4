@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MSIMElem : NSObject<NSCopying>
 
+/** 聊天类型*/
+@property(nonatomic,assign) MSIMAChatType chatType;
+
 /** 消息类型*/
 @property(nonatomic,assign) MSIMMessageType type;
 
@@ -48,9 +51,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) NSInteger block_id;
 
 /** TRUE：表示是发送消息；FALSE：表示是接收消息*/
-- (BOOL)isSelf;
+@property(nonatomic,assign,readonly) BOOL isSelf;
 
-- (NSString *)partner_id;
+@property(nonatomic,copy,readonly) NSString *partner_id;
+
 
 @end
 
