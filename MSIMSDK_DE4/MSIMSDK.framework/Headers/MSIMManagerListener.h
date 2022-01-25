@@ -85,6 +85,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 收到信令消息
 - (void)onRecieveSignalMessages:(NSArray<MSIMElem *> *)msgs;
 
+/// 收到闪照已读的指令消息
+- (void)onRecieveFlashReadSignal:(MSIMElem *)elem;
+
 /**
  *  消息发送状态变化通知
  */

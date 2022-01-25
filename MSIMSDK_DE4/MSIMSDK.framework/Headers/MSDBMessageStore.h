@@ -30,6 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///标记某一条消息为删除的消息
 - (BOOL)updateMessageDelete:(NSInteger)msg_id partnerID:(NSString *)partnerID;
 
+///收到我看过，或对方看过闪照时，更新闪照消息
+- (BOOL)updateFlashMessage:(MSIMElem *)elem;
+
 ///取最后一条msg_id
 - (MSIMElem *)lastMessageID:(NSString *)partner_id;
 

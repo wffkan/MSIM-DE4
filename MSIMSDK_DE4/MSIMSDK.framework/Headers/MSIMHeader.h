@@ -33,6 +33,9 @@
 //有指令消息通知
 #define MSUIKitNotification_SignalMessageListener @"MSUIKitNotification_SignalMessageListener"
 
+///收到闪照已读的指令消息 object：操作者的Uid
+#define MSUIKitNotification_flashImageRead @"MSUIKitNotification_flashImageRead"
+
 //消息状态有变更通知
 #define MSUIKitNotification_MessageSendStatusUpdate @"MSUIKitNotification_MessageSendStatusUpdate"
 //收到对方撤回消息的通知

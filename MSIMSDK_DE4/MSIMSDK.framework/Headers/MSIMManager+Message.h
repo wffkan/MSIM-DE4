@@ -41,6 +41,12 @@ typedef void (^BFIMMessageListSucc)(NSArray<MSIMElem *> * msgs,BOOL isFinished);
  */
 - (MSIMVideoElem *)createVideoMessage:(MSIMVideoElem *)elem;
 
+
+/** 创建闪照图片消息
+    如果是系统相册拿的图片，需要先把图片导入 APP 的目录下
+ */
+- (MSIMFlashElem *)createFlashImageMessage:(MSIMFlashElem *)elem;
+
 /** 创建业务消息
  */
 - (nullable MSBusinessElem *)createBusinessMessage:(MSBusinessElem *)elem;
@@ -80,6 +86,17 @@ typedef void (^BFIMMessageListSucc)(NSArray<MSIMElem *> * msgs,BOOL isFinished);
               toReciever:(NSString *)reciever
                successed:(void(^)(NSInteger msg_id))success
                   failed:(MSIMFail)failed;
+
+
+/// 闪图已读（点击闪图时调用）
+/// @param reciever 会话对方的uid
+/// @param msg_id 消息的唯一ID
+/// @param success 操作成功
+/// @param failed 操作失败
+- (void)flashImageRead:(NSInteger)msg_id
+            toReciever:(NSInteger)reciever
+             successed:(MSIMSucc)success
+                failed:(MSIMFail)failed;
 
 /////////////////////////////////////////////////////////////////////////////////
 //

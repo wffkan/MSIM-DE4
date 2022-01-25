@@ -147,6 +147,36 @@ NS_ASSUME_NONNULL_BEGIN
 
 /////////////////////////////////////////////////////////////////////////////////
 //
+//                      flash Elem(闪照图片消息)
+//
+/////////////////////////////////////////////////////////////////////////////////
+@interface MSIMFlashElem : MSIMElem
+
+/** 图片 ID，内部标识，可用于外部缓存key*/
+@property(nonatomic,copy,nullable) NSString *uuid;
+/** 图片大小*/
+@property(nonatomic,assign) NSInteger size;
+/** 图片宽*/
+@property(nonatomic,assign) NSInteger width;
+/** 图片高*/
+@property(nonatomic,assign) NSInteger height;
+/** 下载URL*/
+@property(nonatomic,copy,nullable) NSString *url;
+/** 待发送的图片*/
+@property(nonatomic,strong,nullable) UIImage *image;
+/** 保存在沙盒中的地址*/
+@property(nonatomic,copy,nullable) NSString *path;
+/** 图片上传的进度 0 ~ 1*/
+@property(nonatomic,assign) CGFloat progress;
+/** from_uid已读*/
+@property(nonatomic,assign) BOOL from_see;
+/** to_uid已读*/
+@property(nonatomic,assign) BOOL to_see;
+
+@end
+
+/////////////////////////////////////////////////////////////////////////////////
+//
 //      业务消息 Elem
 // 11 ~ 30 预留给用户可以发送的消息类型
 // 32 ~ 63 预留给用户只能接收的消息类型
