@@ -13,48 +13,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MSIMElem : NSObject<NSCopying>
 
-/** 聊天类型*/
-@property(nonatomic,assign) MSIMAChatType chatType;
-
-/** 消息类型*/
-@property(nonatomic,assign) MSIMMessageType type;
-
-/** 消息发送方ID*/
-@property(nonatomic,copy) NSString *fromUid;
-
-/** 消息接收方ID*/
-@property(nonatomic,copy) NSString *toUid;
-
-/** 服务器返回的消息的自增id*/
-@property(nonatomic,assign) NSInteger msg_id;
-
-/** 当消息生成时就已经固定，全局唯一，会贯穿整个发送以及接收过程。*/
-@property(nonatomic,assign) NSInteger msg_sign;
-
-/** 消息状态*/
-@property(nonatomic,assign) MSIMMessageStatus sendStatus;
-
-/** 消息发送失败错误码*/
-@property(nonatomic,assign) NSInteger code;
-
-/** 消息发送失败描述*/
-@property(nonatomic,copy) NSString *reason;
-
-/** 消息已读状态*/
-@property(nonatomic,assign) MSIMMessageReadStatus readStatus;
-
-@property(nonatomic,assign,readonly) NSData *extData;
-
 /** 被撤回消息msg_id*/
 @property(nonatomic,assign) NSInteger revoke_msg_id;
 
+/** 判断本地消息的连续性*/
 @property(nonatomic,assign) NSInteger block_id;
 
-/** TRUE：表示是发送消息；FALSE：表示是接收消息*/
-@property(nonatomic,assign,readonly) BOOL isSelf;
-
-@property(nonatomic,copy,readonly) NSString *partner_id;
-
+/** 扩展字段，用于数据库存储*/
+- (NSData *)extData;
 
 @end
 
@@ -183,6 +149,8 @@ NS_ASSUME_NONNULL_BEGIN
 //  对应的消息type 11 ~ 30 and 32 ~ 63
 /////////////////////////////////////////////////////////////////////////////////
 @interface MSBusinessElem : MSIMElem
+
+@property(nonatomic,assign) NSInteger businessType;
 
 @property(nonatomic,copy,nullable) NSString *body;
 

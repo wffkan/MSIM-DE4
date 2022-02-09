@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class MSIMConversation;
-@class MSIMElem;
+@class MSIMMessage;
 @class MSProfileInfo;
 @class MSIMMessageReceipt;
 @protocol MSIMSDKListener <NSObject>
@@ -77,24 +77,24 @@ NS_ASSUME_NONNULL_BEGIN
 @required
 
 /// 收到新消息（除了信令消息）
-- (void)onNewMessages:(NSArray<MSIMElem *> *)msgs;
+- (void)onNewMessages:(NSArray<MSIMMessage *> *)msgs;
 
 /// 收到删除的消息
 - (void)onDeleteMessages:(NSArray<NSNumber *> *)msg_ids;
 
 /// 收到信令消息
-- (void)onRecieveSignalMessages:(NSArray<MSIMElem *> *)msgs;
+- (void)onRecieveSignalMessages:(NSArray<MSIMMessage *> *)msgs;
 
 /// 收到闪照已读的指令消息
-- (void)onRecieveFlashReadSignal:(MSIMElem *)elem;
+- (void)onRecieveFlashReadSignal:(MSIMMessage *)elem;
 
 /**
  *  消息发送状态变化通知
  */
-- (void)onMessageUpdateSendStatus:(MSIMElem *)elem;
+- (void)onMessageUpdateSendStatus:(MSIMMessage *)elem;
 
 ///收到一条对方撤回的消息
-- (void)onRevokeMessage:(MSIMElem *)elem;
+- (void)onRevokeMessage:(MSIMMessage *)elem;
 
 ///收到消息已读回执（仅单聊有效） 
 - (void)onRecvC2CReadReceipt:(MSIMMessageReceipt *)receipt;

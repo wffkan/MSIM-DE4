@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MSIMSDK/MSIMElem.h>
+#import <MSIMSDK/MSIMMessage.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)provider NS_SWIFT_NAME(shared());
 
 /// 根据msg_sign查询某一条消息实体
-- (nullable MSIMElem *)searchMessage:(NSString *)partner_id msg_sign:(NSInteger)msg_sign;
+- (nullable MSIMMessage *)searchMessage:(NSString *)partner_id msg_sign:(NSInteger)msg_sign;
 
 
 @end
