@@ -9,7 +9,6 @@
 #import <MSIMSDK/MSIMConst.h>
 #import <MSIMSDK/MSIMElem.h>
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MSIMMessage : NSObject<NSCopying>

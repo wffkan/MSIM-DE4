@@ -13,8 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MSIMElem : NSObject<NSCopying>
 
-/** 被撤回消息msg_id*/
-@property(nonatomic,assign) NSInteger revoke_msg_id;
 
 /** 判断本地消息的连续性*/
 @property(nonatomic,assign) NSInteger block_id;
