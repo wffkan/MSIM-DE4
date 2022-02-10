@@ -44,7 +44,7 @@ typedef void (^BFIMMessageListSucc)(NSArray<MSIMMessage *> * msgs,BOOL isFinishe
  type    视频类型，如 mp4 mov 等
  duration    视频时长，单位 s
  snapshotPath    视频封面文件路径
- identifierID  资源的唯一标识，用于重复图片附件上传去重。可以为空
+ identifierID  资源的唯一标识，用于重复视频附件上传去重。可以为空
  */
 - (MSIMMessage *)createVideoMessage:(NSString *)videoFilePath
                                type:(NSString *)type

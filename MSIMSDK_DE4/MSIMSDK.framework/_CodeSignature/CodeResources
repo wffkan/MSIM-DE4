@@ -50,11 +50,11 @@
 		</data>
 		<key>Headers/MSIMElem.h</key>
 		<data>
-		RlCVXQIODiAA2PptFrA13gX9lXw=
+		RNp9hpaoewkp4fiSTA6cBVV12RE=
 		</data>
 		<key>Headers/MSIMErrorCode.h</key>
 		<data>
-		Psdi/MYf4av8uGAzYzj6jn47K34=
+		iAoV8YEKxwSGBlCloisDk0Sx7Z8=
 		</data>
 		<key>Headers/MSIMHeader.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/MSIMManager+Message.h</key>
 		<data>
-		nA0Vvk6ArphYG9dnfX8XS1w2s9I=
+		J/OiFtAKAZgue2m5rAwE6l47OoA=
 		</data>
 		<key>Headers/MSIMManager+Parse.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/MSIMManagerListener.h</key>
 		<data>
-		qR/eSlHUXLXgSxAf+mtS36iH7iI=
+		gH/6EIUAFdw/+vyIb4qo3pr8fU0=
 		</data>
 		<key>Headers/MSIMMessage.h</key>
 		<data>
@@ -276,22 +276,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RlCVXQIODiAA2PptFrA13gX9lXw=
+			RNp9hpaoewkp4fiSTA6cBVV12RE=
 			</data>
 			<key>hash2</key>
 			<data>
-			JmT113esHc1oWLnrVJ8xJrPbTWCBH/kVb+A7L/GcxwE=
+			HezD2sbVWJ0byRecZYt7boligXVjzFDKMiCLmPVxnaE=
 			</data>
 		</dict>
 		<key>Headers/MSIMErrorCode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Psdi/MYf4av8uGAzYzj6jn47K34=
+			iAoV8YEKxwSGBlCloisDk0Sx7Z8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Va6uwgazDOrSHWP+QTvdbggCgc7NP1yxu2/ONrzufHE=
+			tkRyF9vzLNJlHF515WM+D59692oqvYvM8S2FreJwFDg=
 			</data>
 		</dict>
 		<key>Headers/MSIMHeader.h</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nA0Vvk6ArphYG9dnfX8XS1w2s9I=
+			J/OiFtAKAZgue2m5rAwE6l47OoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZaMjHPKAIskGf+mqqcztAUjM96H/9I3EVAxKE14zyhc=
+			SFtCeSN8Ys+qfgohlmTiD5vd8jYTx5LPpphO1LjqGcY=
 			</data>
 		</dict>
 		<key>Headers/MSIMManager+Parse.h</key>
@@ -375,11 +375,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qR/eSlHUXLXgSxAf+mtS36iH7iI=
+			gH/6EIUAFdw/+vyIb4qo3pr8fU0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hdKhsyp26apbRoqYvJ7so31TbYjtf5ud5nkdtWgSpek=
+			HaR89Gjwr110AvBjYKZn4VpGvzrM9HLKaF2SHjtswC0=
 			</data>
 		</dict>
 		<key>Headers/MSIMMessage.h</key>

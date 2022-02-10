@@ -85,16 +85,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 收到信令消息
 - (void)onRecieveSignalMessages:(NSArray<MSIMMessage *> *)msgs;
 
-/// 收到闪照已读的指令消息
-//- (void)onRecieveFlashReadSignal:(MSIMMessage *)elem;
-
 /**
  *  消息发生变化通知（包括发送状态，撤回等等）
  */
 - (void)onMessageUpdate:(MSIMMessage *)message;
 
-///收到一条对方撤回的消息
-//- (void)onRevokeMessage:(MSIMMessage *)elem;
 
 ///收到消息已读回执（仅单聊有效） 
 - (void)onRecvC2CReadReceipt:(MSIMMessageReceipt *)receipt;

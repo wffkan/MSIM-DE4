@@ -98,6 +98,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy,nullable) NSString *coverUrl;
 /** 封面本地坡地*/
 @property(nonatomic,copy,nullable) NSString *coverPath;
+/** 视频文件大小*/
+@property(nonatomic,assign) NSInteger size;
 /** 视频宽*/
 @property(nonatomic,assign) NSInteger width;
 /** 视频高*/
