@@ -46,6 +46,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)excuteQuerySQL:(NSString*)sqlStr resultBlock:(void(^)(FMResultSet * rsSet))resultBlock;
 
+/**
+ *  判断表是否存在
+ */
+- (BOOL)tableExists:(NSString *)tableName;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

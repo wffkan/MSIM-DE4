@@ -135,7 +135,7 @@ typedef void (^BFIMMessageListSucc)(NSArray<MSIMMessage *> * msgs,BOOL isFinishe
 
 ///删除消息
 ///只做本地删除，卸载重装后从服务器仍能拉到此消息
-- (BOOL)deleteMessage:(NSInteger)msg_sign user_id:(NSString *)user_id;
+- (BOOL)deleteMessageFromLocal:(MSIMMessage *)message;
 
 @end
 

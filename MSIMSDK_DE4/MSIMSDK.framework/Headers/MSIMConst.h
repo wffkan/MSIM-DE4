@@ -53,6 +53,8 @@ typedef NS_ENUM(NSInteger, XMChatProtoType) {
     XMChatProtoTypeGetCosToken = 21,//请求cos的临时证书
     XMChatProtoTypeCosTokenResponse = 22,//cos的临时证书结果
     XMChatProtoTypeRefreshPushToken = 23,//客户端更新push token
+    XMChatProtoTypeGetAgoraToken = 24,//请求声网的临时token
+    XMChatProtoTypeAgoraTokenResponse = 25,//声网的临时token结果
     
     XMChatProtoTypeChatAction = 39,//发送消息指令（64 revoke  69 点开闪照）
     

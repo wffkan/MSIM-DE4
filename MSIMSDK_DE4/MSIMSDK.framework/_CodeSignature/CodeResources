@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MSDBBaseStore.h</key>
 		<data>
-		Gc9ZWgCHR34xAOi4gjsKslOYhZM=
+		om10vp2CkjDJkSXMbuRrKeF/64w=
 		</data>
 		<key>Headers/MSDBConversationStore.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MSIMConst.h</key>
 		<data>
-		YCwEEGk/xOp9hIFzui/o21cBs4E=
+		BZEetgLtIv6iw0YnWjD0jRvdcBw=
 		</data>
 		<key>Headers/MSIMConversation.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Headers/MSIMManager+Demo.h</key>
 		<data>
-		C3vU3awh+Sdpkn9nIuihT3TXLJE=
+		r/9gtVZwSoVQ435HaJcerhBJf/g=
 		</data>
 		<key>Headers/MSIMManager+Message.h</key>
 		<data>
-		J/OiFtAKAZgue2m5rAwE6l47OoA=
+		vyG2ObxeI3E1MtDZdLz4B6MtHiQ=
 		</data>
 		<key>Headers/MSIMManager+Parse.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ztALZ4euV5fR4/6f4Y4WNq+FZyI=
+		VjhPvDelYqA45Y4LMc0PuzSmaoE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gc9ZWgCHR34xAOi4gjsKslOYhZM=
+			om10vp2CkjDJkSXMbuRrKeF/64w=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHSQnPW2AXIXo9Okqy/ub7oNg7rhClqi6wKD1WkoicA=
+			nUZnVeu/uy4ed5LtrJjsnvLhPL1ph7oDS8eQwpGFlVE=
 			</data>
 		</dict>
 		<key>Headers/MSDBConversationStore.h</key>
@@ -254,11 +254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YCwEEGk/xOp9hIFzui/o21cBs4E=
+			BZEetgLtIv6iw0YnWjD0jRvdcBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			07hDot7uhNrhqdiZczqPSddk+STbJN1usPdUtDA9j5A=
+			c/MRc9cPfsPeeXj/nL0CUMw+1az9z7rvgRmO4u0eu7k=
 			</data>
 		</dict>
 		<key>Headers/MSIMConversation.h</key>
@@ -331,22 +331,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C3vU3awh+Sdpkn9nIuihT3TXLJE=
+			r/9gtVZwSoVQ435HaJcerhBJf/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			EByIGb3ftkY/40PJu99xFB1Gcc+8ld/UW2RQ1IPBNo0=
+			CvrjCPXCDNFfN879UnmepLxE0DamFIvRgNJS2Gi4BLQ=
 			</data>
 		</dict>
 		<key>Headers/MSIMManager+Message.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J/OiFtAKAZgue2m5rAwE6l47OoA=
+			vyG2ObxeI3E1MtDZdLz4B6MtHiQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SFtCeSN8Ys+qfgohlmTiD5vd8jYTx5LPpphO1LjqGcY=
+			8aCJSK0Cq6io0Xz0d6pgywK+Q8W3bCFZy73zfzzJbf0=
 			</data>
 		</dict>
 		<key>Headers/MSIMManager+Parse.h</key>
