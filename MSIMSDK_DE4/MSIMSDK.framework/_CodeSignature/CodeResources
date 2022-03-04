@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IMSDKConfig.h</key>
 		<data>
-		pAYOetvHg3vJQyHdj6Vz/rG0eoU=
+		/e2S/JFDiNplR3QvOiCpYNFbD1I=
 		</data>
 		<key>Headers/MSCacheProvider.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MSIMConst.h</key>
 		<data>
-		BZEetgLtIv6iw0YnWjD0jRvdcBw=
+		B5Q9dEeEK+bVhxife6mT2KcsEgs=
 		</data>
 		<key>Headers/MSIMConversation.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/MSIMManager+Message.h</key>
 		<data>
-		vyG2ObxeI3E1MtDZdLz4B6MtHiQ=
+		mdE6Jnb91yHhEEBpsQdnF6LaEG0=
 		</data>
 		<key>Headers/MSIMManager+Parse.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/MSIMManager.h</key>
 		<data>
-		iWMuV3VdYXmxRphJqptO33lXzFs=
+		TsWVDm966AF/YgIq+z9yofKg8HE=
 		</data>
 		<key>Headers/MSIMManagerListener.h</key>
 		<data>
@@ -155,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pAYOetvHg3vJQyHdj6Vz/rG0eoU=
+			/e2S/JFDiNplR3QvOiCpYNFbD1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			El+HWZoxn6Wwxy8ot5vf5LNYvkGg40OZihy+1mRUwXg=
+			c0SJBhqwBXwRUxAvVwVi3fd6uBnvL02z9r4pQ8e+REQ=
 			</data>
 		</dict>
 		<key>Headers/MSCacheProvider.h</key>
@@ -254,11 +254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BZEetgLtIv6iw0YnWjD0jRvdcBw=
+			B5Q9dEeEK+bVhxife6mT2KcsEgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			c/MRc9cPfsPeeXj/nL0CUMw+1az9z7rvgRmO4u0eu7k=
+			U2DfK0RJVylsIaHhDPsyGUYR0RDNIyKu7bfmqmFpNPs=
 			</data>
 		</dict>
 		<key>Headers/MSIMConversation.h</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vyG2ObxeI3E1MtDZdLz4B6MtHiQ=
+			mdE6Jnb91yHhEEBpsQdnF6LaEG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8aCJSK0Cq6io0Xz0d6pgywK+Q8W3bCFZy73zfzzJbf0=
+			vs310abYTH24RJRrzLWgHglu7Xejurf5agnVdJwqYys=
 			</data>
 		</dict>
 		<key>Headers/MSIMManager+Parse.h</key>
@@ -364,11 +364,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iWMuV3VdYXmxRphJqptO33lXzFs=
+			TsWVDm966AF/YgIq+z9yofKg8HE=
 			</data>
 			<key>hash2</key>
 			<data>
-			r1TF1KwpnObCeWp5nmT9j6Ab1UyqClTSub4oeTwDTII=
+			ZfrWkChTfVtbM9V8v2migctYAh33usY9oYTYVwW1NGA=
 			</data>
 		</dict>
 		<key>Headers/MSIMManagerListener.h</key>

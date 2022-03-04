@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** 会话列表分页拉取数量,默认：50个*/
 @property(nonatomic,assign) NSInteger chatListPageCount;
 
+/** 音视频通话是否走voip推送，默认：不开启*/
+@property(nonatomic,assign) BOOL voipEnable;
+
 /** IM附件服务器存储时长。默认最多存储7天，超过7天的文件会自动清除 默认： 7天。永久存储设置为：-1*/
 @property(nonatomic,assign) NSInteger objectCleanDay;
 
